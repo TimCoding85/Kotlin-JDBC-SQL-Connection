@@ -13,7 +13,7 @@ class SqlConnection {
 
         val url = "jdbc:jtds:sqlserver://SERVER-IP:PORT;databaseName=DB;encrypt=false;trustServerCertificate=true"   // Replace SERVER-IP, PORT and DB
         val username = "user"  // Examples
-        val password = "1234" // Examples
+        val password = "password" // Examples
 
         connection = DriverManager.getConnection(url, username, password)
 
